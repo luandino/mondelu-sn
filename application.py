@@ -1,18 +1,8 @@
 #!/usr/bin/env python
 import flask
-import urllib
-import requests
-import datetime
-import dateutil.parser
-import random
-import string
-import json
+
 import os
 from flask import Flask, jsonify, request, url_for, render_template, redirect, send_from_directory, session as login_session
-from pymodm import connect
-import bcrypt
-from datetime import datetime, timedelta
-from flask_pymongo import PyMongo
 
 
 from flask_bootstrap import Bootstrap
